@@ -1,0 +1,332 @@
+
+.header, footer{
+    background-color: pink;
+    margin-bottom: 5px;
+    color: black;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+#ch{
+    font-family: 'Fauna One', serif;
+}
+/* buttons */
+.highlight a:hover{
+    color: black;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.center{
+    margin-left: 8%;
+    margin-top: 13%;
+    margin-bottom: 100px;
+}
+
+.center h1{
+    font-size: 50px;
+    color: #212121;
+}
+h4{
+    color: #F67280;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/* image */
+ .images{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+    width: 80%;
+}
+
+.floatRight
+{
+    float: right;
+    margin-left: 2000px;
+    margin-top: 200px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.images{
+    float: right;
+    width: 40%;
+}
+.images img{
+    width: 40%;
+    height: 300px;
+}
+
+/* scroll down mouse */
+.home__scroll-button{
+    color: var(--first-color);
+    transition: .3s;
+}
+.home__scroll-button:hover{
+    transform: translateY(.25rem);
+}
+.home__scroll-mouse{
+    font-size: 2rem;
+}
+.home__scroll-arrow{
+    font-size: 1.25rem;
+}
+.button--flex{
+    display: inline-flex;
+}
+.home__scroll-name{
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+}
+
+/* Hobby section */
+.Hobby{
+    width: 100%;
+    padding: 100px 0px;
+    margin-bottom: 100px;
+}
+.title h2{
+    color: black;
+    font-size: 55px;
+    width: 1130px;
+    margin: auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: pink;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.pra{
+    text-align: justify;
+    text-indent: 20px;
+}
+/* skills section */
+.title2 h2{
+    color: black;
+    font-size: 55px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    padding: 100px;
+}
+.skill{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    grid-gap: 2rem;
+    margin-bottom: 150px;
+}
+.about-img img{
+    width: 300px;
+    height: auto;
+    float: right;
+}
+.para{
+    text-align: justify;
+}
+/* button to scroll up */
+.scrollup{
+    position: fixed;
+    right: 1rem;
+    bottom: 8rem;
+    background-color: blue;
+    padding: 0 .3rem;
+    border-radius: .4rem;
+    transition: .4s;
+}
+.scrollup_icon{
+    font-size: 1.5rem;
+    color: pink;
+}
+
+
+/* contact section */
+ 
+  body{
+    background: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  form{
+    background: #212121;
+    width: 640px;
+    margin: 50px auto;
+    max-width: 97%;
+    border-radius: 4px;
+    padding: 55px 30px;
+  }
+  
+  form .title h2{
+    letter-spacing: 6px;
+    border-bottom: 1px solid white;
+    width: 275px;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+    text-align: left;
+    color: white;
+  }
+
+  label{
+    color: white;
+  }
+
+  #reset{
+    color: white;
+  }
+
+  
+  form .half{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icons a{
+    color: white;
+  }
+  
+  form .half .item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    width: 48%;
+  }
+  
+  form label{
+    display: block;
+    font-size: 13px;
+    letter-spacing: 3.5px;
+    margin-bottom: 16px;
+  }
+  
+  form .half .item input{
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    padding: 16px;
+    width: 100%;
+    height: 44px;
+    background: transparent;
+    font-size: 17px;
+  }
+  
+  form .full{
+    margin-bottom: 24px;
+  }
+  
+  form .full textarea{
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    padding: 12px 16px;
+    width: 100%;
+    height: 200px;
+    font-size: 17px;
+  }
+  
+  form .action{
+    margin-bottom: 32px;
+  }
+  
+  form .action input{
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    height: 44px;
+    letter-spacing: 3px;
+    outline: 0;
+    padding: 0 20px 0 22px;
+    margin-right: 10px;
+  }
+  
+  form .action input[type="submit"]{
+    background: white;
+    color: black;
+  }
+  
+  form .icons a{
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600;
+    width: 38px;
+    margin-right: 10px;
+  }
+  
+  form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover, form .icons a:hover{
+    background: rgba(255,255,255,0.075);
+  }
+  
+  @media (max-width: 480px){
+    form .half{
+      flex-direction: column;
+    }
+    form .half .item{
+      width: 100%;
+    }
+    form .action{
+      display: flex;
+      flex-direction: column;
+    }
+    form .action input{
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
+
+/* footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#copyright{
+    color:black;
+    font-weight: bold;
+} */
+
+
+
+/*-------------------- Screen section-------------- */
+@media (max-width: 1134px){
+    .images{
+        display: none;
+    }
+    .title h2{
+        text-align: left;
+        margin-left: 20px;
+    }
+}
