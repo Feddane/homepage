@@ -93,16 +93,39 @@ h4 {
   font-weight: var(--font-medium);
   margin-right: var(--mb-0-25);
 }
-/* whatever */
-.whatever {
-  margin: 150px auto;
+
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 450px ;
+    height: 365px;
+    width: 1000px;
+    padding: 20px 35px;
+    background: pink;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    flex-direction: column;
+    position: absolute;
+    top:140%;
+    left: 20%;
+    margin-bottom: 15px;
+
 }
-.whatever p{
-  
-  padding: 50px;
-  padding-top: 20px ;
-  text-align: center;
+.end.pra{
+  padding: 20px;
+  margin :5px;
 }
+.end h5{
+  padding-top : 30px;
+  margin-top:20px;
+  margin-bottom: 15px;
+  padding-bottom : 15px;
+}
+
 
 /* Hobby section */
 .Hobby {
@@ -150,11 +173,15 @@ h4 {
   text-align: center;
   padding: 50px;
 }
+
+
 h2{
   color: black;
   font-size: 55px;
   text-align: center;
 }
+
+
 .skill {
   display: flex;
   flex-direction: column;
@@ -200,17 +227,12 @@ img {
 
 /* contact section */
 #name , #email , #message{
-  color: white;
-}
-body {
-  background: url();
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  color: black;
 }
 
+
 form {
-  background: #212121;
+  background:   #AEC6CF;
   width: 640px;
   margin: 50px auto;
   max-width: 97%;
@@ -220,20 +242,20 @@ form {
 
 form .title h2 {
   letter-spacing: 6px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   width: 275px;
   padding-bottom: 8px;
   margin-bottom: 32px;
   text-align: left;
-  color: white;
+  color: black;
 }
 
 label {
-  color: white;
+  color: black;
 }
 
 #reset {
-  color: white;
+  color: black;
 }
 
 
@@ -243,7 +265,7 @@ form .half {
 }
 
 .icons a {
-  color: white;
+  color: black;
 }
 
 form .half .item {
